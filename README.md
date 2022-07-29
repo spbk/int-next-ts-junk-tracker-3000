@@ -7,7 +7,7 @@ You have been hired to build an inventory management system for your local junky
 1. Allow for four different vehicle types (listed below) to be created and edited.
     - For each Vehicle type, only display the relevant fields to the user
       - For example: If a a Coupe is being created/edited, do not show the "Automatic sliding doors" field.
-2. After each vehicle is created, register it using the `VehicleRegistrationService` (at [`lib/vehicleRegistrationService.js`](lib/vehicleRegistrationService.ts)) and permanently associate that registration ID with the vehicle.
+2. After each vehicle is created, register it using the `VehicleRegistrationService` (at [`lib/vehicleRegistrationService.ts`](lib/vehicleRegistrationService.ts)) and permanently associate that registration ID with the vehicle.
 3. List all vehicles on `http://localhost:3001/` with their type, nickname, mileage rating and registration ID
     - mileage rating is defined as:
         - low: mileage < 10,000
